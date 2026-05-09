@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "thierno-balde-portfolio",
+  "builds": [
+    {
+      "src": "**/*",
+      "use": "@vercel/static"
+    }
+  ]
+}

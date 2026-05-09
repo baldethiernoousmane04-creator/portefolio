@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Portfolio de BALDE Thierno Ousmane - L1 Cybersécurité ISM Dakar, Développeur Full-Stack, Créateur d'agents IA" />
+        <meta name="author" content="BALDE Thierno Ousmane" />
+        <meta property="og:title" content="BALDE Thierno Ousmane | Portfolio" />
+        <meta property="og:description" content="Étudiant L1 Cybersécurité · ISM Dakar · Développeur Full-Stack · Créateur IA" />
+        <meta property="og:image" content="assets/img/photo.png" />
+        <meta property="og:type" content="website" />
+        <title>BALDE Thierno Ousmane | Portfolio</title>
+        <link rel="icon" type="image/png" href="assets/img/logo.png" />
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+
+        <!-- Bouton retour en haut -->
+        <button id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Retour en haut">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">
+                    <img src="assets/img/logo.png" alt="Logo B" />
+                    BALDE
+                </a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Navigation">
+                    Menu <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Projets</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#competences">Compétences</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">À Propos</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header class="masthead text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <img class="masthead-avatar mb-4" src="assets/img/photo.jpg" style="width:160px;height:160px;border-radius:50%;object-fit:cover;object-position:center top;" alt="BALDE Thierno Ousmane" />
+                <h1 class="masthead-heading text-uppercase mb-0">BALDE Thierno Ousmane</h1>
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-shield-halved"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <p class="masthead-subheading font-weight-light mb-3">
+                    <span id="typed-text"></span><span class="cursor">|</span>
+                </p>
+                <div class="header-tags d-flex flex-wrap justify-content-center gap-2 mb-4">
+                    <span class="header-tag"><i class="fas fa-map-marker-alt"></i> Dakar, Sénégal</span>
+                    <a href="https://amin-gules.vercel.app" target="_blank" class="header-tag"><i class="fas fa-robot"></i> Agent IA AMIN</a>
+                    <span class="header-tag"><i class="fas fa-graduation-cap"></i> ISM L1 Cybersécurité</span>
+                </div>
+                <a href="CV_BALDE_Thierno_Ousmane.docx" download class="btn-cv">
+                    <i class="fas fa-download"></i> Télécharger mon CV
+                </a>
+            </div>
+        </header>
+
+        <!-- Projets -->
+        <section class="page-section" id="portfolio">
+            <div class="container">
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Mes Projets</h2>
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="row justify-content-center g-4">
+
+                    <!-- Agent IA AMIN -->
+                    <div class="col-md-6 col-lg-4 reveal">
+                        <div class="project-card">
+                            <div class="project-card-header">🤖</div>
+                            <div class="project-card-body">
+                                <p class="project-card-title">Agent IA — AMIN</p>
+                                <p class="project-card-text">Assistant intelligent personnel créé et déployé sur Vercel. AMIN est un agent IA conversationnel développé de A à Z.</p>
+                                <div class="mt-2 mb-3">
+                                    <span class="badge-tech badge-ia">Intelligence Artificielle</span>
+                                    <span class="badge-tech badge-ia">Agent IA</span>
+                                    <span class="badge-tech">Vercel</span>
+                                </div>
+                                <a href="https://amin-gules.vercel.app" target="_blank" class="btn btn-primary btn-sm w-100">
+                                    <i class="fas fa-external-link-alt me-1"></i> Voir AMIN
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- EduManager -->
+                    <div class="col-md-6 col-lg-4 reveal">
+                        <div class="project-card">
+                            <div class="project-card-header">🎓</div>
+                            <div class="project-card-body">
+                                <p class="project-card-title">EduManager Pro</p>
+                                <p class="project-card-text">Plateforme de gestion scolaire développée de A à Z en PHP/MySQL. Gestion des utilisateurs, notes, absences, bulletins et paiements.</p>
+                                <div class="mt-2 mb-3">
+                                    <span class="badge-tech">PHP</span>
+                                    <span class="badge-tech">MySQL</span>
+                                    <span class="badge-tech">HTML/CSS</span>
+                                    <span class="badge-tech">SaaS</span>
+                                </div>
+                                <span class="btn btn-outline-secondary btn-sm w-100" style="cursor:default;pointer-events:none;">
+                                    <i class="fas fa-server me-1"></i> Projet local en développement
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio -->
+                    <div class="col-md-6 col-lg-4 reveal">
+                        <div class="project-card">
+                            <div class="project-card-header">🌐</div>
+                            <div class="project-card-body">
+                                <p class="project-card-title">Portfolio Personnel</p>
+                                <p class="project-card-text">Ce portfolio réalisé pour l'examen HTML5/CSS3 à l'ISM Dakar. Template Bootstrap personnalisé avec animations et design professionnel.</p>
+                                <div class="mt-2 mb-3">
+                                    <span class="badge-tech">HTML5</span>
+                                    <span class="badge-tech">CSS3</span>
+                                    <span class="badge-tech">Bootstrap 5</span>
+                                    <span class="badge-tech">Vercel</span>
+                                </div>
+                                <a href="#page-top" class="btn btn-primary btn-sm w-100">
+                                    <i class="fas fa-eye me-1"></i> Vous y êtes !
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- WordPress No-Code -->
+                    <div class="col-md-6 col-lg-4 reveal">
+                        <div class="project-card">
+                            <div class="project-card-header">⚡</div>
+                            <div class="project-card-body">
+                                <p class="project-card-title">Sites Web No-Code</p>
+                                <p class="project-card-text">Création de sites web professionnels avec WordPress et Elementor. Design moderne, responsive et optimisé.</p>
+                                <div class="mt-2 mb-3">
+                                    <span class="badge-tech badge-nocode">WordPress</span>
+                                    <span class="badge-tech badge-nocode">Elementor</span>
+                                    <span class="badge-tech badge-nocode">No-Code</span>
+                                </div>
+                                <span class="btn btn-outline-secondary btn-sm w-100" style="cursor:default;pointer-events:none;">
+                                    <i class="fas fa-palette me-1"></i> Réalisations sur demande
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Design & Logo -->
+                    <div class="col-md-6 col-lg-4 reveal">
+                        <div class="project-card">
+                            <div class="project-card-header">🎨</div>
+                            <div class="project-card-body">
+                                <p class="project-card-title">Design & Identité Visuelle</p>
+                                <p class="project-card-text">Création de logos, maquettes d'applications et identités visuelles avec Illustrator, Figma et Affinity Designer.</p>
+                                <div class="mt-2 mb-3">
+                                    <span class="badge-tech">Figma</span>
+                                    <span class="badge-tech">Illustrator</span>
+                                    <span class="badge-tech">Affinity</span>
+                                    <span class="badge-tech">Logo</span>
+                                </div>
+                                <span class="btn btn-outline-secondary btn-sm w-100" style="cursor:default;pointer-events:none;">
+                                    <i class="fas fa-brush me-1"></i> Portfolio design
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Réseau Cisco -->
+                    <div class="col-md-6 col-lg-4 reveal">
+                        <div class="project-card">
+                            <div class="project-card-header">🔒</div>
+                            <div class="project-card-body">
+                                <p class="project-card-title">Architecture Réseau Cisco</p>
+                                <p class="project-card-text">Conception et configuration d'architectures réseau à l'ISM. Routage, sécurisation et administration système.</p>
+                                <div class="mt-2 mb-3">
+                                    <span class="badge-tech">Cisco</span>
+                                    <span class="badge-tech">Réseaux</span>
+                                    <span class="badge-tech">Cybersécurité</span>
+                                </div>
+                                <span class="btn btn-outline-secondary btn-sm w-100" style="cursor:default;pointer-events:none;">
+                                    <i class="fas fa-graduation-cap me-1"></i> Projet académique
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Compétences -->
+        <section class="page-section" id="competences">
+            <div class="container">
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Compétences</h2>
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-3 reveal">
+                        <div class="skill-card">
+                            <i class="fas fa-code"></i>
+                            <h5>Développement Web</h5>
+                            <p>HTML5, CSS3, Bootstrap, PHP, WordPress, Elementor</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 reveal">
+                        <div class="skill-card">
+                            <i class="fas fa-robot"></i>
+                            <h5>Intelligence Artificielle</h5>
+                            <p>Création d'agents IA, automatisation, déploiement (AMIN)</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 reveal">
+                        <div class="skill-card">
+                            <i class="fab fa-python"></i>
+                            <h5>Python</h5>
+                            <p>Scripts, automatisation, traitement de données, IA</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 reveal">
+                        <div class="skill-card">
+                            <i class="fas fa-database"></i>
+                            <h5>Base de données</h5>
+                            <p>MySQL, conception de schémas, requêtes SQL avancées</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 reveal">
+                        <div class="skill-card">
+                            <i class="fas fa-network-wired"></i>
+                            <h5>Réseaux & Sécurité</h5>
+                            <p>Cisco, architecture réseau, cybersécurité</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 reveal">
+                        <div class="skill-card">
+                            <i class="fas fa-pen-nib"></i>
+                            <h5>Design & Logo</h5>
+                            <p>Figma, Illustrator, Affinity, maquettes UI/UX</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 reveal">
+                        <div class="skill-card">
+                            <i class="fas fa-tools"></i>
+                            <h5>Outils & Déploiement</h5>
+                            <p>Git, GitHub, Vercel, Excel, déploiement web</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 reveal">
+                        <div class="skill-card">
+                            <i class="fas fa-plug"></i>
+                            <h5>No-Code</h5>
+                            <p>WordPress, Elementor, création rapide de sites pro</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- À Propos -->
+        <section class="page-section mb-0" id="about">
+            <div class="container">
+                <h2 class="page-section-heading text-center text-uppercase text-white">À Propos de Moi</h2>
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-user"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-8 text-center">
+                        <p class="lead text-white" style="line-height:1.85;">
+                            Étudiant en <strong>Licence 1 Cybersécurité</strong> à l'ISM de Dakar, je combine développement web, intelligence artificielle et design pour créer des solutions numériques concrètes. créateur de <strong>EduManager Pro</strong> et créateur de l'agent IA <strong>AMIN</strong>, <strong>je crois que l'apprentissage se fait avant tout par la pratique.</strong>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Barres de compétences -->
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-5 mb-4">
+                        <div class="skill-bar-container">
+                            <div class="skill-label"><span>HTML / CSS</span><span>85%</span></div>
+                            <div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-label"><span>PHP / MySQL</span><span>75%</span></div>
+                            <div class="skill-bar"><div class="skill-bar-fill" data-width="75"></div></div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-label"><span>Python</span><span>65%</span></div>
+                            <div class="skill-bar"><div class="skill-bar-fill" data-width="65"></div></div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-label"><span>Agent IA</span><span>70%</span></div>
+                            <div class="skill-bar"><div class="skill-bar-fill" data-width="70"></div></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 mb-4">
+                        <div class="skill-bar-container">
+                            <div class="skill-label"><span>WordPress / No-Code</span><span>80%</span></div>
+                            <div class="skill-bar"><div class="skill-bar-fill" data-width="80"></div></div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-label"><span>Figma / Illustrator</span><span>70%</span></div>
+                            <div class="skill-bar"><div class="skill-bar-fill" data-width="70"></div></div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-label"><span>Cisco / Réseaux</span><span>70%</span></div>
+                            <div class="skill-bar"><div class="skill-bar-fill" data-width="70"></div></div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-label"><span>Git / GitHub</span><span>68%</span></div>
+                            <div class="skill-bar"><div class="skill-bar-fill" data-width="68"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stats -->
+                <div class="row justify-content-center g-3 mb-5">
+                    <div class="col-6 col-md-3"><div class="stat-box"><div class="stat-number">1</div><div class="stat-label">SaaS lancé</div></div></div>
+                    <div class="col-6 col-md-3"><div class="stat-box"><div class="stat-number">1</div><div class="stat-label">Agent IA créé</div></div></div>
+                    <div class="col-6 col-md-3"><div class="stat-box"><div class="stat-number">4</div><div class="stat-label">Langues parlées</div></div></div>
+                    <div class="col-6 col-md-3"><div class="stat-box"><div class="stat-number">∞</div><div class="stat-label">Motivation</div></div></div>
+                </div>
+
+                <!-- Langues -->
+                <div class="text-center mb-5">
+                    <h5 class="text-white text-uppercase mb-3" style="letter-spacing:2px;">Langues</h5>
+                    <span class="lang-badge">🌍 Peul – Maternelle</span>
+                    <span class="lang-badge">🇸🇳 Wolof – Courant</span>
+                    <span class="lang-badge">🇫🇷 Français – Courant</span>
+                    <span class="lang-badge">🇬🇧 Anglais – Courant</span>
+                </div>
+
+                <!-- Formation -->
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-6">
+                        <div class="formation-box">
+                            <h5 class="text-white text-center mb-3"><i class="fas fa-graduation-cap me-2"></i>Formation</h5>
+                            <div class="formation-timeline">
+                                <p class="text-white mb-1" style="font-weight:700;">Licence 1 – Cybersécurité</p>
+                                <p class="text-white mb-1" style="opacity:0.8;font-size:0.9rem;">ISM – Institut Supérieur de Management, Dakar</p>
+                                <p class="text-white mb-0" style="opacity:0.65;font-size:0.82rem;"><i class="fas fa-calendar-alt me-1"></i>2025 – 2026</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <a href="CV_BALDE_Thierno_Ousmane.docx" download class="btn-cv">
+                        <i class="fas fa-download"></i> Télécharger mon CV complet
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Me Contacter</h2>
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="row justify-content-center">
+                    <!-- Infos -->
+                    <div class="col-lg-5 mb-5 mb-lg-0">
+                        <h4 class="contact-section-title">Informations</h4>
+                        <a href="mailto:baldethiernoousmane04@gmail.com" class="contact-card">
+                            <i class="fas fa-envelope"></i>
+                            <div><p class="contact-label">Email</p><p class="contact-value">baldethiernoousmane04@gmail.com</p></div>
+                        </a>
+                        <a href="tel:+221711688228" class="contact-card">
+                            <i class="fab fa-whatsapp"></i>
+                            <div><p class="contact-label">Téléphone / WhatsApp</p><p class="contact-value">+221 71 168 82 28</p></div>
+                        </a>
+                        <a href="https://amin-gules.vercel.app" target="_blank" class="contact-card">
+                            <i class="fas fa-robot"></i>
+                            <div><p class="contact-label">Agent IA</p><p class="contact-value">amin-gules.vercel.app</p></div>
+                        </a>
+                        <div class="contact-card" style="cursor:default;">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div><p class="contact-label">Localisation</p><p class="contact-value">Dakar, Sénégal</p></div>
+                        </div>
+                        <div class="mt-4 text-center">
+                            <a href="CV_BALDE_Thierno_Ousmane.docx" download class="btn-cv btn-cv-sm">
+                                <i class="fas fa-file-word"></i> Télécharger le CV
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Formulaire -->
+                    <div class="col-lg-6">
+                        <h4 class="contact-section-title">Envoyer un message</h4>
+                        <div id="formSuccess">
+                            <i class="fas fa-check-circle me-2"></i> Message envoyé avec succès !
+                        </div>
+                        <form id="contactForm" novalidate>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Votre nom..." required />
+                                <label for="name">Nom complet *</label>
+                                <div class="invalid-feedback">Veuillez entrer votre nom.</div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="email@exemple.com" required />
+                                <label for="email">Adresse email *</label>
+                                <div class="invalid-feedback">Veuillez entrer un email valide.</div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="+221 XX XXX XX XX" />
+                                <label for="phone">Téléphone (optionnel)</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" placeholder="Votre message..." style="height:9rem" required></textarea>
+                                <label for="message">Message *</label>
+                                <div class="invalid-feedback">Veuillez écrire un message.</div>
+                            </div>
+                            <button class="btn btn-primary btn-xl w-100" type="submit" id="submitBtn">
+                                <i class="fas fa-paper-plane me-2"></i>Envoyer le message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4 text-white">Localisation</h4>
+                        <p class="lead text-white-50 mb-0">Dakar, Sénégal<br/>ISM – L1 Cybersécurité</p>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4 text-white">Retrouvez-moi</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="mailto:baldethiernoousmane04@gmail.com" title="Email"><i class="fas fa-fw fa-envelope"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="tel:+221711688228" title="WhatsApp"><i class="fab fa-fw fa-whatsapp"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://amin-gules.vercel.app" target="_blank" title="Agent IA AMIN"><i class="fas fa-fw fa-robot"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com" target="_blank" title="GitHub"><i class="fab fa-fw fa-github"></i></a>
+                    </div>
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4 text-white">À propos</h4>
+                        <p class="lead text-white-50 mb-0">
+                            Développeur, designer & créateur IA.<br/>
+                            <a href="https://amin-gules.vercel.app" target="_blank" class="text-white">Découvrez AMIN →</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; BALDE Thierno Ousmane 2026 &nbsp;·&nbsp; ISM Dakar &nbsp;·&nbsp; L1 Cybersécurité</small></div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script>
+            // ── Typing effect ──
+            const phrases = [
+                'Étudiant L1 Cybersécurité · ISM Dakar',
+                'Développeur Full-Stack PHP/MySQL',
+                'Créateur d\'agents IA',
+                'Designer Figma & Illustrator',
+                'Sites No-Code WordPress',
+                'Pythoniste en formation'
+            ];
+            let pi = 0, ci = 0, deleting = false;
+            const el = document.getElementById('typed-text');
+            function type() {
+                const phrase = phrases[pi];
+                el.textContent = deleting ? phrase.slice(0, ci--) : phrase.slice(0, ci++);
+                if (!deleting && ci > phrase.length) { deleting = true; setTimeout(type, 1800); return; }
+                if (deleting && ci < 0) { deleting = false; pi = (pi + 1) % phrases.length; ci = 0; }
+                setTimeout(type, deleting ? 40 : 65);
+            }
+            type();
+
+            // ── Scroll effects ──
+            window.addEventListener('scroll', () => {
+                const nav = document.getElementById('mainNav');
+                nav.classList.toggle('scrolled', window.scrollY > 60);
+                document.getElementById('backToTop').classList.toggle('show', window.scrollY > 400);
+                document.querySelectorAll('section[id]').forEach(section => {
+                    const top = section.offsetTop - 90;
+                    const id = section.getAttribute('id');
+                    const link = document.querySelector('nav a[href="#' + id + '"]');
+                    if (link) link.classList.toggle('active', window.scrollY >= top && window.scrollY < top + section.offsetHeight);
+                });
+            });
+
+            // ── Reveal on scroll ──
+            const revealObs = new IntersectionObserver((entries) => {
+                entries.forEach((e, i) => {
+                    if (e.isIntersecting) {
+                        setTimeout(() => e.target.classList.add('visible'), i * 80);
+                        revealObs.unobserve(e.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+            document.querySelectorAll('.reveal').forEach(el => revealObs.observe(el));
+
+            // ── Animate skill bars ──
+            const barObs = new IntersectionObserver((entries) => {
+                entries.forEach(e => {
+                    if (e.isIntersecting) {
+                        e.target.querySelectorAll('.skill-bar-fill').forEach(bar => {
+                            bar.style.width = bar.dataset.width + '%';
+                        });
+                        barObs.unobserve(e.target);
+                    }
+                });
+            }, { threshold: 0.3 });
+            document.querySelectorAll('#about').forEach(el => barObs.observe(el));
+
+            // ── Form validation ──
+            document.getElementById('contactForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                if (!this.checkValidity()) { this.classList.add('was-validated'); return; }
+                const btn = document.getElementById('submitBtn');
+                btn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Envoi...';
+                btn.disabled = true;
+                setTimeout(() => {
+                    document.getElementById('formSuccess').style.display = 'block';
+                    this.reset(); this.classList.remove('was-validated');
+                    btn.innerHTML = '<i class="fas fa-paper-plane me-2"></i>Envoyer le message';
+                    btn.disabled = false;
+                    window.location.href = 'mailto:baldethiernoousmane04@gmail.com?subject=Contact depuis votre portfolio&body=' + encodeURIComponent(document.getElementById('message').value);
+                }, 800);
+            });
+        </script>
+    </body>
+</html>
